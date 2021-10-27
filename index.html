@@ -73,13 +73,13 @@
               //var secs = Math.floor((diff % (1000 * 60)) / 1000);
               //console.log(days, hours, mins, secs);
               // var timeRem = days + " days " + hours + " hrs " + mins + " mins " + secs + " secs ";
-              var timeRem = days + " days " + hours + " hrs ";
+              var timeRem = days + " days " + hours + " hrs to go!";
               console.log(timeRem);
             } else {
               var timeRem = "Finally! The day has come.";
             }
             el.setAttribute("value", timeRem);
-          }, 10000);
+          }, 2000);
         },
       });
 
